@@ -1,0 +1,41 @@
+body{
+    background-color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+
+    padding: 100px;
+}
+.box{
+    border:2px solid gray ;
+    background-color: #f4f5f5 ;
+}
+h1{
+    display:flex;
+    align-items: center;
+    justify-content: center;    
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.result{
+    padding: 50px;
+}
+#value{
+    font-size: xx-large;
+    font-weight: bold;
+    display:flex;
+    align-items: center;
+    justify-content: center;    
+    font-size: 6rem;
+    font-weight: bold;
+}
+.x{
+    border-width: 3px !important;
+}
+.btn{
+    margin-top: 10px;
+    border-width: 2px;
+}

@@ -1,0 +1,108 @@
+
+body{
+    margin: 0;
+    line-height: 1.5;
+    background-color: #d8e8ee !important;
+}
+
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration:solid;
+}
+
+h1{
+    margin: 3px 0 !important;
+    background: linear-gradient(45deg,
+     red, orange, yellow, green,
+      blue, indigo, violet);
+    -webkit-background-clip:  text;
+    -webkit-text-fill-color: transparent;
+}
+h2{
+    text-align: center;
+    margin-bottom: 30px !important;
+}
+p{
+    text-align: center;
+    margin-bottom: 30px !important;
+}
+
+nav {
+    height: 3rem;
+    display: grid;
+    align-items: center;
+}
+.nav-center {
+    width: 90vw;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center; 
+    height: 3rem; 
+}
+
+.nav-links {
+    display: flex;
+}
+nav a {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+nav a:hover {
+    color: rgb(205, 78, 60);
+}
+main {
+    display: grid;
+    place-items: center;
+}
+.container {
+    margin-top: 100px;
+}
+.color{
+    font-weight: bold;
+}
+.color2{
+    font-weight: bold;
+}
+
+.btn-hero {
+    text-transform: uppercase;
+    background-color: transparent;
+    /* background: rgb(206, 229, 245) !important; */
+    display: inline-block;
+    font-weight: 700;
+    border: 2px solid rgb(156, 197, 235);
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgb(0, 0, 0);
+    padding: 1rem 1rem;
+    background-color: #d8e8ee !important;
+}
+.simplebg {
+    width: 80px;
+    height: 150px;
+    border: 3px solid black !important;
+    border-radius: 30%;
+}
+.hexbg {
+    width: 80px;
+    height: 150px;
+    border: 3px solid black !important;
+    border-radius: 30%;
+}
+.colorWrite{
+    padding: 20px;
+}
+.brdr{
+    margin: 100px 75px !important;
+    border:4px solid black !important;
+    height: 350px;
+    background-color: #f4f5f5 !important;
+}
+.pddng{
+    padding: 40px;
+}
